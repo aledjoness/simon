@@ -32,7 +32,6 @@
             this.right = new System.Windows.Forms.Button();
             this.top = new System.Windows.Forms.Button();
             this.bottom = new System.Windows.Forms.Button();
-            this.middle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // left
@@ -79,23 +78,12 @@
             this.bottom.UseVisualStyleBackColor = false;
             this.bottom.Click += new System.EventHandler(this.bottom_Click);
             // 
-            // middle
-            // 
-            this.middle.BackColor = System.Drawing.Color.DarkMagenta;
-            this.middle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.middle.Location = new System.Drawing.Point(124, 117);
-            this.middle.Name = "middle";
-            this.middle.Size = new System.Drawing.Size(45, 45);
-            this.middle.TabIndex = 4;
-            this.middle.UseVisualStyleBackColor = false;
-            // 
             // SimonWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(293, 278);
-            this.Controls.Add(this.middle);
             this.Controls.Add(this.bottom);
             this.Controls.Add(this.top);
             this.Controls.Add(this.right);
@@ -117,7 +105,6 @@
         private System.Windows.Forms.Button right;
         private System.Windows.Forms.Button top;
         private System.Windows.Forms.Button bottom;
-        private System.Windows.Forms.Button middle;
     }
 }
 
